@@ -1,0 +1,149 @@
+.popup {
+    position: fixed;
+    padding: 10px;
+    width: 526px;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,1);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility 0s linear .5s;
+    z-index: 1;
+ }
+ .popup:target {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+ }
+ .popup .close {
+    position: absolute;
+    right: 18px;
+    top: 0;
+    padding: 5px;
+    color: #808080;
+    transition: color .3s;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 700;
+ }
+ .popup .close:hover {
+    color: #000;
+ }
+ .close-popup {
+    background-color: rgba(0,0,0,.7);
+    cursor: default;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility 0s linear .5s;
+ }
+ .popup:target + .close-popup {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ .form2 {
+    padding: 65px 0;
+    height: 465px;
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 346px;
+    margin: 0 auto;
+  }
+  
+.form2 .title {
+    margin-bottom: 30px;
+    font-size: 27px;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .form2 input {
+    width: 346px;
+    margin-bottom: 30px;
+    padding: 21.5px 0 21.5px 25px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+  }
+  
+  .form2 input:focus::-webkit-input-placeholder {
+    color: #000;
+  }
+  
+  .form2 input:focus:-ms-input-placeholder {
+    color: #000;
+  }
+  
+  .form2 input:focus::-ms-input-placeholder {
+    color: #000;
+  }
+  
+  .form2 input:focus::placeholder {
+    color: #000;
+  }
+  
+  .form2 input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  
+  .form2 input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  
+  .form2 input::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  
+  .form2 input::placeholder {
+    font-size: 16px;
+  }
+  
+  .form2 input.mail {
+    margin-bottom: 27px;
+  }
+  
