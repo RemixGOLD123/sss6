@@ -1659,6 +1659,7 @@ a {
     padding-right: 20px;
   }
   header,
+  body,
   section,
   footer {
     width: 320px !important;
