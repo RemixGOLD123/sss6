@@ -1245,6 +1245,97 @@ a {
   border-bottom: 0;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    top: 20px;
+  }
+  .header .logo {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .header .logo img {
+    width: 100%;
+  }
+  .header__inner .nav .nav__link + .nav__link {
+    margin-left: 10px;
+  }
+  .header__inner .nav .nav__link {
+    font-size: 13px;
+  }
+  .header__inner .contact a {
+    font-size: 13px;
+  }
+  .intro {
+    height: 330px;
+  }
+  .intro .title {
+    font-size: 50px;
+  }
+  .intro .suptitle {
+    font-size: 16px;
+  }
+  .sec1 {
+    position: relative;
+    padding: 140px 0;
+  }
+  .sec1__inner-1 .video {
+    width: 430px;
+    height: 266px;
+  }
+  .sec1__inner-1 .form {
+    width: 300px;
+  }
+  .sec1__inner-1 .form .title {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .sec1__inner-1 .form input {
+    margin-bottom: 14px;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 0 0 25px;
+  }
+  .sec1__inner-1 .form input.mail {
+    margin-bottom: 14px;
+  }
+  .sec1__inner-1 .form .btn {
+    padding: 19px 46px;
+  }
+  .sec3 .card .card__item {
+    width: 50%;
+  }
+  .sec4 .title br {
+    display: none;
+  }
+  .sec4 .block .block__content {
+    padding: 110px 44px;
+  }
+  .sec4 .block .block__content .title br {
+    display: block;
+  }
+  .sec4 .block .block__content .title:first-child {
+    padding-right: 45px;
+  }
+  .container {
+    width: 750px !important;
+    max-width: 750px !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header,
+  section,
+  footer {
+    width: 100% !important;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 767px) {
   .btn {
     padding: 19px 56px;
@@ -1546,6 +1637,9 @@ a {
   .sec7 .block .suptitle {
     color: #fff;
   }
+  .sec9 {
+    padding-left: 15px;
+  }
   .sec9 .title {
     font-size: 44px;
   }
@@ -1555,7 +1649,7 @@ a {
   .sec9 .container {
     width: 100% !important;
     max-width: 100% !important;
-    margin-left: 15px;
+    margin: 0;
   }
   .sec9 .bx-wrapper {
     max-width: 100% !important;
@@ -1654,12 +1748,27 @@ a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .intro .suptitle {
     padding-right: 20px;
   }
+  .popup {
+    height: 440px;
+    padding: 20px !important;
+    width: 320px !important;
+  }
+  .form2 {
+    margin: 0;
+    padding: 40px 0 !important;
+  }
+  .form2 input {
+    width: 100% !important;
+  }
+  .form2 .btn {
+    width: 100% !important;
+    padding: 19px 35px !important;
+  }
   header,
-  body,
   section,
   footer {
     width: 320px !important;
